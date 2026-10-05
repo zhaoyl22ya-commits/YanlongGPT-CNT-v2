@@ -1,0 +1,11 @@
+torch==2.5.1
+numpy
+scipy
+scikit-learn
+tqdm
+
+tokenizers==0.19.1
+transformers==4.44.2
+sentence-transformers==3.0.1
+faiss-cpu==1.15.1
+openai

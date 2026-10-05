@@ -1,0 +1,21 @@
+name: yanlonggpt-cnt-v2
+
+channels:
+  - conda-forge
+  - defaults
+
+dependencies:
+  - python=3.12
+  - numpy
+  - scipy
+  - scikit-learn
+  - tqdm
+  - pip
+
+  - pip:
+      - torch==2.5.1
+      - tokenizers==0.19.1
+      - transformers==4.44.2
+      - sentence-transformers==3.0.1
+      - faiss-cpu==1.15.1
+      - openai
